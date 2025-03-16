@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/ppt/day1", "destination": "/presentations/ai-coding/day1.md" },
+    { "source": "/ppt/day2", "destination": "/presentations/ai-coding/day2.md" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
+}
