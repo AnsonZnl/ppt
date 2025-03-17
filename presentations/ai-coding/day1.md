@@ -50,8 +50,6 @@ layout: two-cols
 
 ![李笑来《把时间当作朋友》](https://s2.loli.net/2025/03/16/Lx9Zv6OsElNTFI3.png)
 
-<div class="absolute bottom-5 left-0 right-0 text-center text-sm opacity-80">AI编程工具的出现，让技术平权，让普通人可以入场开发自己的App！</div>
-
 </v-clicks>
  
 ---
@@ -329,6 +327,29 @@ layout: center
 ## 扫码查看
 
 地址转二维码：[链图](https://qr.windliang.wang)
+
+</v-clicks>
+
+---
+layout: center
+---
+
+# 对于普通人
+
+<v-clicks>
+
+- ### 让技术平权，编程不再是少数人的专利，而是大众可获取的能力
+
+<!-- 打破，我只差一个程序员的口号 -->
+<br>
+
+- ### 让想法落地，开发周期大幅缩短，从想法到产品的时间被压缩
+<!-- 快速验证一个MVP，快速验证，快速试错 -->
+
+<br>
+
+- ### 需求洞察力和创造力将成为关键
+
 
 </v-clicks>
 
