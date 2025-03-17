@@ -134,8 +134,6 @@ layout: two-cols
 
 </v-clicks>
 </div>
-
----
  
 ---
 layout: center
@@ -169,9 +167,7 @@ layout: center
 ```
 
 </v-clicks>
-
----
-
+ 
 ---
 layout: center
 ---
@@ -335,3 +331,13 @@ layout: center
 地址转二维码：[链图](https://qr.windliang.wang)
 
 </v-clicks>
+
+
+---
+layout: center
+---
+
+# 联系我
+
+<img src="https://s2.loli.net/2025/03/17/bvMlHDcVJWiNZ1w.png" style="margin: auto;;width:30%;" alt="">
+ 
