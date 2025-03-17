@@ -20,12 +20,12 @@ title: AI 编程分享 - Day 1
 </div>
 
 ---
-layout: section
 
 # 学习编程的好处
 
 ---
 layout: two-cols
+---
 
 <v-clicks>
 
@@ -50,9 +50,8 @@ layout: two-cols
 <div class="absolute bottom-5 left-0 right-0 text-center text-sm opacity-80">AI编程工具的出现，让技术平权，让普通人可以入场开发自己的App！</div>
 
 </v-clicks>
-
+ 
 ---
-layout: section
 
 # 学习编程的疑问
 
@@ -64,8 +63,7 @@ layout: section
 
 </v-clicks>
 
----
-layout: section
+--- 
 
 # 难不难
 
@@ -76,16 +74,15 @@ layout: section
 - 只要有计算器、能看懂数字、会加减乘除就可以计算一样
 
 </v-clicks>
-
+ 
 ---
-layout: section
 
 # 学什么？
-
----
+ 
 
 ---
 layout: two-cols
+---
 
 # Python
 
@@ -129,9 +126,8 @@ layout: two-cols
 </div>
 
 ---
-
+ 
 ---
-layout: section
 
 # 怎么学？
 
@@ -161,8 +157,7 @@ layout: section
 
 ---
 
----
-layout: section
+--- 
 
 # AI 编程的演进
 
@@ -220,10 +215,7 @@ layout: section
 </div>
 
 ---
-
----
-layout: section
-
+ 
 # AI 编程工具
 
 ---
