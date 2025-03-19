@@ -409,8 +409,6 @@ layout: center
 
 
 ---
-layout: center
----
 
 <v-clicks>
 
@@ -465,12 +463,70 @@ layout: center
 </v-clicks>
 
 
----
-layout: center
+
 ---
 
 
 <v-clicks>
+
+
+
+## 什么是编程​？
+
+> 编程就是编写程序的过程，是将人类思维和指令转化为计算机可以理解和执行的语言
+
+- 编程语言：汇编→高级语言→自然语言​
+
+- 机器听不懂人话，所以需要和机器沟通，就需要编程语言，比如java、Python..​
+
+- 有了AI之后，让AI充当翻译，帮我去和机器沟通​
+
+## 编程就是把一个具体的动作抽象出来​
+写一个爬虫的逻辑​
+1. 引入请求库​
+2. 获取数据​
+3. 处理数据​
+4. 保存数据​
+
+``` python {monaco-run}
+import requests
+from bs4 import BeautifulSoup
+
+# 目标网页的URL
+url = 'http://example.com'
+
+# 发送HTTP请求
+response = requests.get(url)
+response.encoding = 'utf-8'  # 根据网页的编码方式进行设置
+
+# 检查请求是否成功
+if response.status_code == 200:
+    # 使用BeautifulSoup解析HTML内容
+    soup = BeautifulSoup(response.text, 'html.parser')
+    
+    # 提取网页的标题
+    title = soup.find('title').get_text()
+    
+    # 打印标题
+    print('网页标题为: ', title)
+else:
+    print('请求失败，错误码：', response.status_code)
+```
+
+集成开发环境（Integrated Development Environment ）简称IDE，类似我们写ppt，需要使用WPS一样，文件的后缀名同理。
+ 
+
+
+</v-clicks>
+
+
+
+---
+
+
+<v-clicks>
+
+
 
 ## 使用Trae​
 - 下载Trae​
@@ -479,10 +535,6 @@ layout: center
 - 告诉他技术栈​
 - 你想要什么
 
-  
-</v-clicks>
----
-layout: center
 ---
 
 # 基础操作​
@@ -491,27 +543,24 @@ layout: center
 - 如何使用
 ​
 ---
-layout: center
----
-
-<v-clicks>
 
 # 核心功能解析​
-
   1. 智能问答Chat：依托强大的模型，让小白也能编程​
   2. 智能上下文：让AI更好的处理问题​
   3. 代码补全：智能预测代码补全，快速修改bug​
   4. 多模态：设计图一键生成代码​
   5. Builder：拆解任务并多生成多文件代码
 
+
 </v-clicks>
 
----
-layout: center
+
+
 ---
 
 
 <v-clicks>
+
 
 
 # 智能问答 
@@ -531,16 +580,15 @@ layout: center
 </v-clicks>
 
 
----
-layout: center
+
 ---
 
 
 <v-clicks>
 
 
-# Builder 模式
 
+# Builder 模式
 - 全自动代码生成，提升开发效率。
 - 对话式迭代开发，省去手动操作。
 - AI自动补全，简化编码流程。
@@ -551,8 +599,7 @@ layout: center
 </v-clicks>
 
 
----
-layout: center
+
 ---
 
 <v-clicks>
@@ -570,8 +617,7 @@ layout: center
 </v-clicks>
 
 
----
-layout: center
+
 ---
 
 
@@ -592,8 +638,6 @@ layout: center
 
 
 ---
-layout: center
----
 
 <v-clicks>
 
@@ -608,8 +652,7 @@ layout: center
 
 </v-clicks>
 
----
-layout: center
+
 ---
 
 
