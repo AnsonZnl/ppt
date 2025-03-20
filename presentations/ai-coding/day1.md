@@ -12,29 +12,14 @@ transition: slide-left
 title: AI 编程 
 ---
 
-# AI 编程
+# AI Coding
 
 <div class="text-xl mt-4 opacity-80">
 0基础人群如何上手 AI 编程
 </div>
 
 
----
 
-
-<v-clicks>
-
-## 什么是编程​？
-
-> 编程就是编写程序的过程，是将人类思维和指令转化为计算机可以理解和执行的语言
-
-- 编程语言：汇编→高级语言→自然语言​
-
-- 机器听不懂人话，所以需要和机器沟通，就需要编程语言，比如java、Python..​
-
-- 有了AI之后，让AI充当翻译，帮我去和机器沟通​
-
-</v-clicks>
 
 ---
 layout: two-cols
@@ -42,7 +27,11 @@ layout: two-cols
 
 <v-clicks >
 
-### 编程就是把一个具体的动作抽象出来​
+# 什么是编程？🤔
+
+<div style="position: absolute; top: 90%; left: 50%; transform: translate(-50%, -50%);width:90%;text-align:center;">编程就是编写程序的过程，是将人类思维和指令转化为计算机可以理解和执行的语言</div>
+
+### 把一个具体的动作抽象出来​
 
 写一个爬虫的逻辑​：
 1. 引入请求库​
@@ -81,6 +70,20 @@ else:
 
 </v-clicks>
 
+---
+
+
+<v-clicks>
+
+## 编程语言的发展
+
+- 机器听不懂人话，所以需要和机器沟通，就需要编程语言，比如java、JavaScript、Python、C#..​
+
+- 编程语言发展：机器语言→汇编语言→高级语言→自然语言​
+
+- 有了AI之后，让AI充当翻译，帮我去和机器沟通​
+
+</v-clicks>
 
 ---
 layout: center
@@ -122,8 +125,9 @@ layout: two-cols
 # ⚡ 提高效率
 
 - 李笑来使用 Python 写书
+ 
+<img src="https://s2.loli.net/2025/03/16/Lx9Zv6OsElNTFI3.png" style="height:35%;" alt="up主开发app，登上排行榜第一">
 
-![李笑来《把时间当作朋友》](https://s2.loli.net/2025/03/16/Lx9Zv6OsElNTFI3.png)
 
 </v-clicks>
  
@@ -270,7 +274,7 @@ layout: center
 - VSCode
 - IntelliJ IDEA
 - 代码提示
-- 集成开发环境，简称IDE，类似我们写ppt，需要使用WPS一样，文件的后缀名同理。
+<!-- 集成开发环境=简称IDE，类似我们写ppt，需要使用WPS一样，文件的后缀名同理。 -->
 
 </v-clicks>
   </div>
@@ -477,7 +481,8 @@ layout: center
 
   
 </v-clicks>
-
+---
+layout: center
 ---
 
 # 基础操作​
@@ -486,7 +491,8 @@ layout: center
 - 如何使用
 ​
 ---
-
+layout: center
+---
 
 <v-clicks>
 
