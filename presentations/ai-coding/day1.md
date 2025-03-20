@@ -5,24 +5,99 @@ class: text-center
 highlighter: shiki
 lineNumbers: false
 info: |
-  ## AI 编程分享
-drawings:
-  persist: false
+  ## AI 编程
+drawings: false
+persist: false
 transition: slide-left
-title: AI 编程分享 - Day 1
+title: AI 编程 
 ---
 
-# AI 编程入门篇
+# AI 编程
 
 <div class="text-xl mt-4 opacity-80">
-无代码基础人群如何上手 AI 编程
+0基础人群如何上手 AI 编程
 </div>
+
+
+---
+
+
+<v-clicks>
+
+## 什么是编程​？
+
+> 编程就是编写程序的过程，是将人类思维和指令转化为计算机可以理解和执行的语言
+
+- 编程语言：汇编→高级语言→自然语言​
+
+- 机器听不懂人话，所以需要和机器沟通，就需要编程语言，比如java、Python..​
+
+- 有了AI之后，让AI充当翻译，帮我去和机器沟通​
+
+</v-clicks>
+
+---
+layout: two-cols
+---
+
+<v-clicks >
+
+### 编程就是把一个具体的动作抽象出来​
+
+写一个爬虫的逻辑​：
+1. 引入请求库​
+2. 获取标题​
+3. 打印标题 
+4. ...
+
+</v-clicks>
+::right::
+<v-clicks>
+
+``` python {monaco-run}
+import requests
+from bs4 import BeautifulSoup
+
+# 目标网页的URL
+url = 'http://example.com'
+
+# 发送HTTP请求
+response = requests.get(url)
+response.encoding = 'utf-8'  # 根据网页的编码方式进行设置
+
+# 检查请求是否成功
+if response.status_code == 200:
+    # 使用BeautifulSoup解析HTML内容
+    soup = BeautifulSoup(response.text, 'html.parser')
+    
+    # 提取网页的标题
+    title = soup.find('title').get_text()
+    
+    # 打印标题
+    print('网页标题为: ', title)
+else:
+    print('请求失败，错误码：', response.status_code)
+```
+
+</v-clicks>
+
 
 ---
 layout: center
 ---
 
-# 学习编程的好处
+
+
+# 为什么要学习编程？ 🤔
+
+<v-clicks>
+
+- 提升个人竞争力
+- 实现自动化和效率提升
+- 创造额外收入机会
+- 开拓职业发展新方向
+
+</v-clicks>
 
 ---
 layout: two-cols
@@ -170,7 +245,6 @@ layout: center
 layout: center
 ---
 
-
 # 编程的演进
 
 ---
@@ -188,15 +262,15 @@ layout: center
 
 </v-clicks>
   </div>
-
   <div class="p-4">
 <v-clicks>
 
-## 2️⃣ 集成环境
+## 2️⃣ IDE 时代
 
 - VSCode
 - IntelliJ IDEA
 - 代码提示
+- 集成开发环境，简称IDE，类似我们写ppt，需要使用WPS一样，文件的后缀名同理。
 
 </v-clicks>
   </div>
@@ -204,7 +278,7 @@ layout: center
 <div class="p-4">
 <v-clicks>
 
-## 3️⃣ AI 编程
+## 3️⃣ AI 编程时代
 
 - Cursor
 - Trae
@@ -217,7 +291,7 @@ layout: center
   <div class="p-4">
 <v-clicks>
 
-## 4️⃣ 自动编程
+## 4️⃣ 未来
 
 - AI 程序员 Devin
 - 需求到部署的全流程自动化
@@ -268,8 +342,7 @@ layout: center
 | 通义灵码 | 代码补全、代码生成、智能问答 | 多语言支持，包括Python、Java、JavaScript等 | 通义大模型 | 免费（阿里云生态） | 中文支持优秀、与阿里云服务深度集成、代码解释能力强 |
 | Marscode | 代码生成、智能补全、代码转换 | 多语言支持 | 火山引擎大模型 | 免费（字节跳动生态） | 中文支持良好、字节跳动技术栈集成、代码重构能力 |
 | CodeGeeX | 代码生成、补全、注释生成 | 支持20+编程语言 | CodeGeeX (开源) | 基础版免费，专业版付费 | 开源模型、离线使用、中文支持良好 |
-| GitHub Copilot | 实时代码建议、函数生成、注释转代码 | 支持多种主流编程语言 | OpenAI Codex | $10/月或$100/年，学生免费 | 强大的上下文理解、IDE集成度高、持续更新 |
-| cline | 命令行代码助手、终端集成 | 多语言支持 | 可选多种模型 | 基础功能免费，高级功能付费 | 终端原生体验、无需切换环境、命令行效率提升 |
+| GitHub Copilot | 实时代码建议、函数生成、注释转代码 | 支持多种主流编程语言 | OpenAI Codex | $10/月或$100/年，学生免费 | 强大的上下文理解、IDE集成度高、持续更新 | 
   
 
 1. **智能代码生成**：自动补全代码，减少手动编写工作量。
@@ -293,7 +366,7 @@ layout: center
 | -------- | ------------------- | -------------- | --------------------- | -------- | ------------------------ |
 | Cursor   | 智能补全、代码生成  | 多语言（主要英文） | Claude 3.5、GPT-4o | $20/月   | VS Code 集成       |
 | Windsurf | 深度代码理解        | 多语言（70种） | Claude 3.5、GPT-4o | $15/月   | 上下文感知、依赖分析 |
-| Trae     | AI 代码生成、多模态 | 中英双语       | Claude 3.5、GPT-4o | 免费     | 全流程支持、原生中文 |
+| Trae     | AI 代码生成、多模态 | 中英双语       | Claude 3.5、GPT-4o、豆包 | 免费     | 全流程支持、原生中文 |
  
 适合多语言开发和需要 团队协作 的项目，尤其适合对代码质量有较高要求的开发环境， 能够显著提高代码编写的速度与准确性。
 
@@ -331,6 +404,8 @@ layout: center
 </v-clicks>
 
 
+---
+layout: center
 ---
 
 <v-clicks>
@@ -386,70 +461,12 @@ layout: center
 </v-clicks>
 
 
-
+---
+layout: center
 ---
 
 
 <v-clicks>
-
-
-
-## 什么是编程​？
-
-> 编程就是编写程序的过程，是将人类思维和指令转化为计算机可以理解和执行的语言
-
-- 编程语言：汇编→高级语言→自然语言​
-
-- 机器听不懂人话，所以需要和机器沟通，就需要编程语言，比如java、Python..​
-
-- 有了AI之后，让AI充当翻译，帮我去和机器沟通​
-
-## 编程就是把一个具体的动作抽象出来​
-写一个爬虫的逻辑​
-1. 引入请求库​
-2. 获取数据​
-3. 处理数据​
-4. 保存数据​
-
-``` python {monaco-run}
-import requests
-from bs4 import BeautifulSoup
-
-# 目标网页的URL
-url = 'http://example.com'
-
-# 发送HTTP请求
-response = requests.get(url)
-response.encoding = 'utf-8'  # 根据网页的编码方式进行设置
-
-# 检查请求是否成功
-if response.status_code == 200:
-    # 使用BeautifulSoup解析HTML内容
-    soup = BeautifulSoup(response.text, 'html.parser')
-    
-    # 提取网页的标题
-    title = soup.find('title').get_text()
-    
-    # 打印标题
-    print('网页标题为: ', title)
-else:
-    print('请求失败，错误码：', response.status_code)
-```
-
-集成开发环境（Integrated Development Environment ）简称IDE，类似我们写ppt，需要使用WPS一样，文件的后缀名同理。
- 
-
-
-</v-clicks>
-
-
-
----
-
-
-<v-clicks>
-
-
 
 ## 使用Trae​
 - 下载Trae​
@@ -457,6 +474,9 @@ else:
 - 梳理逻辑​
 - 告诉他技术栈​
 - 你想要什么
+
+  
+</v-clicks>
 
 ---
 
@@ -467,23 +487,25 @@ else:
 ​
 ---
 
+
+<v-clicks>
+
 # 核心功能解析​
+
   1. 智能问答Chat：依托强大的模型，让小白也能编程​
   2. 智能上下文：让AI更好的处理问题​
   3. 代码补全：智能预测代码补全，快速修改bug​
   4. 多模态：设计图一键生成代码​
   5. Builder：拆解任务并多生成多文件代码
 
-
 </v-clicks>
 
-
-
+---
+layout: center
 ---
 
 
 <v-clicks>
-
 
 
 # 智能问答 
@@ -503,15 +525,16 @@ else:
 </v-clicks>
 
 
-
+---
+layout: center
 ---
 
 
 <v-clicks>
 
 
-
 # Builder 模式
+
 - 全自动代码生成，提升开发效率。
 - 对话式迭代开发，省去手动操作。
 - AI自动补全，简化编码流程。
@@ -522,7 +545,8 @@ else:
 </v-clicks>
 
 
-
+---
+layout: center
 ---
 
 <v-clicks>
@@ -540,7 +564,8 @@ else:
 </v-clicks>
 
 
-
+---
+layout: center
 ---
 
 
@@ -561,6 +586,8 @@ else:
 
 
 ---
+layout: center
+---
 
 <v-clicks>
 
@@ -575,7 +602,8 @@ else:
 
 </v-clicks>
 
-
+---
+layout: center
 ---
 
 
