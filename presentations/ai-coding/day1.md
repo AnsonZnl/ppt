@@ -15,11 +15,37 @@ title: AI 编程
 # AI Coding
 
 <div class="text-xl mt-4 opacity-80">
-0基础人群如何上手 AI 编程
+指北共学-0基础人群如何上手 AI 编程
 </div>
 
+---
+layout: center
+--- 
 
+# 自我介绍
 
+- 九旬
+- 程序员
+- 指北群友
+- AI编程探索者
+---
+layout: center
+---
+
+<v-clicks >
+
+### 面向对象
+1. 对编程感兴趣的普通人
+2. 专业的软件开发者
+3. 对AI编程感兴趣的人
+
+<br>
+
+### 你可获得
+
+- 如果你不会编程，在这里可以学习如何使用AI编程工具快速上手开发一个自己的小应用。
+- 如果你是专业的开发者，你可以学习如何使用AI编程提升工作效率，优化你的工作流程。
+</v-clicks >
 
 ---
 layout: two-cols
@@ -71,7 +97,8 @@ else:
 </v-clicks>
 
 ---
-
+layout: center
+---
 
 <v-clicks>
 
@@ -106,19 +133,6 @@ layout: center
 layout: two-cols
 ---
 
-<v-clicks>
-
-# 💰 赚钱机会
-
-- up 主开发 App，登上排行榜第一
-
-<img src="https://s2.loli.net/2025/03/17/PEOnXeuLzFi93l5.png" style="height:35%;" alt="up主开发app，登上排行榜第一">
-
-
-
-</v-clicks>
-
-::right::
 
 <v-clicks>
 
@@ -130,6 +144,21 @@ layout: two-cols
 
 
 </v-clicks>
+
+::right::
+
+<v-clicks>
+
+# 💰 赚钱机会
+
+- up 主开发 App，登上排行榜第一
+
+<img src="https://s2.loli.net/2025/03/17/PEOnXeuLzFi93l5.png" style="height:35%;" alt="up主开发app，登上排行榜第一">
+
+</v-clicks>
+
+
+
  
 ---
 layout: center
@@ -160,68 +189,31 @@ layout: center
 
 </v-clicks>
  
----
+--- 
 layout: center
 ---
 
+# 学什么
 
-# 学什么？
+## Python
+ 
+- 接近英语语法、丰富的库和框架
+- 强大的社区支持、生态系统 
+- 网络爬虫、数据分析、自动化脚本
 
----
-layout: two-cols
----
 
-# Python
+## JavaScript 
 
-<v-clicks>
-
-## 简单易学
-
-- 接近英语语法
-- 丰富的库和框架
-- 强大的社区支持
-- 强大的生态系统
-
-## 应用广泛
-
-- 网络爬虫
-- 数据分析
-- 自动化脚本
-
-</v-clicks>
-
-::right::
-
-<div class="ml-4">
-<v-clicks>
-
-# JavaScript
-
-## 多平台支持
-
-- 小程序开发
-- 浏览器应用
-- 移动应用（iOS/Android）
-- 桌面应用（Windows/Mac）
-
-## 全栈开发
-
-- 前端界面
-- 后端服务
-
-</v-clicks>
-</div>
+- 小程序开发、浏览器应用
+- 移动应用（iOS/Android）、桌面应用（Windows/Mac）
+- 前端界面、后端服务
+ 
  
 ---
 layout: center
 ---
-
-
+ 
 # 怎么学？
-
----
-
-# AI 辅助学习方法
 
 <v-clicks>
 
@@ -244,16 +236,10 @@ layout: center
 ```
 
 </v-clicks>
- 
----
-layout: center
+  
 ---
 
-# 编程的演进
-
----
-
-# 编程工具的四个阶段
+# 编程的四个阶段
 
 <div class="grid grid-cols-2 gap-4">
   <div class="p-4">
@@ -348,12 +334,11 @@ layout: center
 | CodeGeeX | 代码生成、补全、注释生成 | 支持20+编程语言 | CodeGeeX (开源) | 基础版免费，专业版付费 | 开源模型、离线使用、中文支持良好 |
 | GitHub Copilot | 实时代码建议、函数生成、注释转代码 | 支持多种主流编程语言 | OpenAI Codex | $10/月或$100/年，学生免费 | 强大的上下文理解、IDE集成度高、持续更新 | 
   
+<br>
 
-1. **智能代码生成**：自动补全代码，减少手动编写工作量。
-2. **多语言支持**：兼容各种编程语言，适用范围广。
-3. **提升开发效率**：加速编程过程，缩短项目周期。
-4. **开发环境无缝集成**：与IDE完美融合，操作便捷。
-5. **降低编程门槛**：简化复杂任务，帮助新手快速上手。
+1. 智能代码生成：自动补全代码，减少手动编写工作量。
+2. 多语言支持：兼容各种编程语言，适用范围广。 
+3. 开发环境无缝集成：与IDE完美融合，操作便捷。 
 
 ---
 
@@ -374,19 +359,14 @@ layout: center
  
 适合多语言开发和需要 团队协作 的项目，尤其适合对代码质量有较高要求的开发环境， 能够显著提高代码编写的速度与准确性。
 
----
-layout: center
+ 
 ---
 
 # 一键生成简历网站
 
----
-
-# 使用 Bolt.new
-
 <v-clicks>
 
-## 地址
+## 使用 Bolt.new
 
 一键生成网站：[Bolt.new](bolt.new)
 
@@ -408,6 +388,8 @@ layout: center
 </v-clicks>
 
 
+---
+layout: center
 ---
 
 <v-clicks>
@@ -463,70 +445,12 @@ layout: center
 </v-clicks>
 
 
-
+---
+layout: center
 ---
 
 
 <v-clicks>
-
-
-
-## 什么是编程​？
-
-> 编程就是编写程序的过程，是将人类思维和指令转化为计算机可以理解和执行的语言
-
-- 编程语言：汇编→高级语言→自然语言​
-
-- 机器听不懂人话，所以需要和机器沟通，就需要编程语言，比如java、Python..​
-
-- 有了AI之后，让AI充当翻译，帮我去和机器沟通​
-
-## 编程就是把一个具体的动作抽象出来​
-写一个爬虫的逻辑​
-1. 引入请求库​
-2. 获取数据​
-3. 处理数据​
-4. 保存数据​
-
-``` python {monaco-run}
-import requests
-from bs4 import BeautifulSoup
-
-# 目标网页的URL
-url = 'http://example.com'
-
-# 发送HTTP请求
-response = requests.get(url)
-response.encoding = 'utf-8'  # 根据网页的编码方式进行设置
-
-# 检查请求是否成功
-if response.status_code == 200:
-    # 使用BeautifulSoup解析HTML内容
-    soup = BeautifulSoup(response.text, 'html.parser')
-    
-    # 提取网页的标题
-    title = soup.find('title').get_text()
-    
-    # 打印标题
-    print('网页标题为: ', title)
-else:
-    print('请求失败，错误码：', response.status_code)
-```
-
-集成开发环境（Integrated Development Environment ）简称IDE，类似我们写ppt，需要使用WPS一样，文件的后缀名同理。
- 
-
-
-</v-clicks>
-
-
-
----
-
-
-<v-clicks>
-
-
 
 ## 使用Trae​
 - 下载Trae​
@@ -535,32 +459,39 @@ else:
 - 告诉他技术栈​
 - 你想要什么
 
+  
+</v-clicks>
+---
+layout: center
 ---
 
 # 基础操作​
 
 - 界面讲解​
 - 如何使用
-​
+
+---
+layout: center
 ---
 
+<v-clicks>
+
 # 核心功能解析​
+
   1. 智能问答Chat：依托强大的模型，让小白也能编程​
   2. 智能上下文：让AI更好的处理问题​
   3. 代码补全：智能预测代码补全，快速修改bug​
   4. 多模态：设计图一键生成代码​
   5. Builder：拆解任务并多生成多文件代码
 
-
 </v-clicks>
 
-
-
+---
+layout: center
 ---
 
 
 <v-clicks>
-
 
 
 # 智能问答 
@@ -580,31 +511,29 @@ else:
 </v-clicks>
 
 
-
+---
+layout: center
 ---
 
 
 <v-clicks>
 
 
-
 # Builder 模式
+
 - 全自动代码生成，提升开发效率。
 - 对话式迭代开发，省去手动操作。
 - AI自动补全，简化编码流程。
 - 从需求到项目，一步到位。
 - 智能生成代码，减少重复工作。
 
-
 </v-clicks>
 
-
-
+---
+layout: center
 ---
 
 <v-clicks>
-
-
 
 # 上下文引用
 - 多级引用，智能关联。
@@ -613,17 +542,14 @@ else:
 - 项目语境，AI自动掌握。
 - 代码交互，精准高效。
 
-
 </v-clicks>
 
 
-
+---
+layout: center
 ---
 
-
 <v-clicks>
-
-
 
 # 多模态开发
 - 设计图转代码，看图写程序。
@@ -635,13 +561,11 @@ else:
 
 </v-clicks>
 
-
-
+---
+layout: center
 ---
 
 <v-clicks>
-
-
 
 # 免费模型
 - 内置强大AI模型，免费使用。
@@ -652,21 +576,20 @@ else:
 
 </v-clicks>
 
-
 ---
-
+layout: center
+---
 
 <v-clicks>
 
-
-
 # Trae其他用法
 - 介绍项目 
-- 写作
+- 写文档
 - 写commit
+- 写测试用例
+- 写注释
 
 其他用法可以参考官方文档：https://docs.trae.ai/docs
-
 
 </v-clicks>
 
@@ -691,7 +614,6 @@ layout: center
 
 - ### 需求洞察力和创造力将成为关键
 
-
 </v-clicks>
 
 
@@ -701,5 +623,4 @@ layout: center
 
 # 联系我
 
-<img src="https://s2.loli.net/2025/03/17/bvMlHDcVJWiNZ1w.png" style="margin: auto;;width:30%;" alt="">
- 
+<img src="https://s2.loli.net/2025/03/17/bvMlHDcVJWiNZ1w.png" style="margin: auto;;width:30%;" alt=""> 
